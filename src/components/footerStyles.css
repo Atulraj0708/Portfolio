@@ -3,9 +3,13 @@
     padding: 6rem 0;
     background-color: rgba(19,19,19,0.8);
 }
-.github .linkedin a{
+.github a{
     color: red;
 }
+.linkedin a{
+    color: red;
+}
+
 .footer-container{
    max-width: 1140px;
    margin: auto;

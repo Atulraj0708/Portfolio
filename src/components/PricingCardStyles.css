@@ -40,7 +40,7 @@
 }
 @media screen and (max-width:740px) {
     .card-container{
-        max-width: 90%;
+        max-width: 100%;
         margin: auto;
         grid-gap:40px;
     }
