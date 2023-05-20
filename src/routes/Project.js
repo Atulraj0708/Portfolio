@@ -11,7 +11,7 @@ const Project = () => {
         <Navbar/>
         <Projectpg heading="PROJECTS." text="Some of my most recent works.. "/>
         <Work/>
-        <PricingCard/>
+        {/* <PricingCard/> */}
         <Footer/>
     </div>
   )
