@@ -3,6 +3,9 @@
     padding: 6rem 0;
     background-color: rgba(19,19,19,0.8);
 }
+.github .linkedin a{
+    color: red;
+}
 .footer-container{
    max-width: 1140px;
    margin: auto;
@@ -22,6 +25,13 @@
     margin-bottom: 0.8rem;
 }
 .linkedin p{
+    line-height: 30px;
+}
+.github{
+    display: flex;
+    margin-bottom: 1rem;
+}
+.github p{
     line-height: 30px;
 }
 .right{
