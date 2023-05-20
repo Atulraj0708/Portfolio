@@ -11,7 +11,7 @@ const Footer = () => {
                 <div className='linkedin'>
                     <FaLinkedin size={20} style={{color:"#fff",marginRight:"2rem"}}/>
                     <div>
-                        <p>To check my Linkedin Profile <a href="https://www.example.com">Click me!</a></p>
+                        <p>To check my Linkedin Profile <a href="https://www.linkedin.com/in/atul-raj-755184215/">Click me!</a></p>
                     </div>
                     <div className='phone'>
                         <h4>
