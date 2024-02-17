@@ -1,5 +1,6 @@
 import React from 'react'
 import Img1 from '../../assets/portfolio-1.png'
+import Img2 from '../../assets/pro2-img.png'
 import './Project.css'
 const Project = () => {
     const data=[
@@ -13,15 +14,15 @@ const Project = () => {
         {
             id:2,
             image:Img1,
-            title:'AR TUBE',
-            github:'https://github.com/Atulraj0708/AR-TUBE',
-            demo:'https://ar-tube.vercel.app/'
+            title:'Dimensions',
+            github:'https://github.com/Atulraj0708/DIMENSIONS',
+            demo:'https://dimensions-five.vercel.app/'
         },
         {
             id:3,
             image:Img1,
-            title:'AR TUBE',
-            github:'https://github.com/Atulraj0708/AR-TUBE',
+            title:'Booking',
+            github:'https://github.com/Atulraj0708/Booking',
             demo:'https://ar-tube.vercel.app/'
         },
         {
