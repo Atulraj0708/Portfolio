@@ -13,7 +13,7 @@ const Project = () => {
         },
         {
             id:2,
-            image:Img1,
+            image:Img2,
             title:'Dimensions',
             github:'https://github.com/Atulraj0708/DIMENSIONS',
             demo:'https://dimensions-five.vercel.app/'
