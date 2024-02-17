@@ -1,17 +1,16 @@
 import React from 'react'
 import Navbar from '../components/navbar'
-import ProfileImg from '../components/ProfileImg'
 import Footer from '../components/footer'
-import Work from '../components/Work'
-const Home = () => {
+import SkillContent from '../components/SkillContent'
+
+const Skill = () => {
   return (
     <div>
         <Navbar/>
-        <ProfileImg/>
-        <Work/>
+        <SkillContent/>
         <Footer/>
     </div>
   )
 }
 
-export default Home
+export default Skill

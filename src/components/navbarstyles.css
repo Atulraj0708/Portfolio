@@ -8,6 +8,7 @@
     height: 90px;
     z-index: 10;
 }
+
 .header-bg{
     background-color: rgba(0,0,0,0.85);
     transition: 0.5s;
@@ -15,15 +16,22 @@
 .nav-menu{
     display: flex;
 }
+
 .nav-menu li{
     padding:0 1rem; 
+    color: blue;
 }
+
 .nav-menu li a{
     font-size:1.2rem; 
     font-weight: 500;
 }
 .hamburger{
     display: none;
+}
+.nav-menu li:hover{
+    color: #0ab549;
+    text-shadow: 2rem 2rem 2rem #0ab549;
 }
 @media screen and (max-width:1040px){
 .nav-menu{
