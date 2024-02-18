@@ -1,8 +1,8 @@
 import React from 'react'
 import CTA from './CTA'
-import ME from '../../assets/me.jpg'
 import HeaderSocial from './HeaderSocial'
 import './header.css'
+import Pic from '../../assets/bg.jpg'
 const header = () => {
   return (
     <header>
@@ -15,7 +15,7 @@ const header = () => {
         <CTA/>
         <HeaderSocial/>
         <div className="me">
-          <img src="https://dianapps.com/blog/wp-content/uploads/2023/05/Untitled-design-75.png" alt="Loading..." />
+          <img src={Pic} alt="Loading..." />
         </div>
         <a href="#contact" className='scroll_down'>Scroll Down</a>
       </div>

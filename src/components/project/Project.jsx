@@ -24,29 +24,8 @@ const Project = () => {
             image:Img3,
             title:'Booking',
             github:'https://github.com/Atulraj0708/Booking',
-            demo:'https://ar-tube.vercel.app/'
+            demo:'https://booking-black-seven.vercel.app/'
         },
-        // {
-        //     id:4,
-        //     image:Img1,
-        //     title:'AR TUBE',
-        //     github:'https://github.com/Atulraj0708/AR-TUBE',
-        //     demo:'https://ar-tube.vercel.app/'
-        // },
-        // {
-        //     id:5,
-        //     image:Img1,
-        //     title:'AR TUBE',
-        //     github:'https://github.com/Atulraj0708/AR-TUBE',
-        //     demo:'https://ar-tube.vercel.app/'
-        // },
-        // {
-        //     id:6,
-        //     image:Img1,
-        //     title:'AR TUBE',
-        //     github:'https://github.com/Atulraj0708/AR-TUBE',
-        //     demo:'https://ar-tube.vercel.app/'
-        // },
     ]
   return (
     <section id='project'>
