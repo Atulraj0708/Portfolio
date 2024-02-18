@@ -40,12 +40,6 @@ const Contact = () => {
             <h5>Contact through Linkedin</h5>
             <a href="https://www.linkedin.com/in/atul-raj-755184215/" target='_blank'>Send a message</a>
           </article>
-          <article className="contact__option">
-           <MdOutlineEmail className='contact__option-icon'/>
-            <h4>Email</h4>
-            <h5>atul.r20@iiits.in</h5>
-            <a href="https://api.whatsapp.com/send?phone+917004769727">Send a message</a>
-          </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='Enter your Name' required/>

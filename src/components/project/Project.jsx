@@ -1,6 +1,7 @@
 import React from 'react'
 import Img1 from '../../assets/portfolio-1.png'
 import Img2 from '../../assets/pro2-img.png'
+import Img3 from '../../assets/pro3-img.png'
 import './Project.css'
 const Project = () => {
     const data=[
@@ -20,32 +21,32 @@ const Project = () => {
         },
         {
             id:3,
-            image:Img1,
+            image:Img3,
             title:'Booking',
             github:'https://github.com/Atulraj0708/Booking',
             demo:'https://ar-tube.vercel.app/'
         },
-        {
-            id:4,
-            image:Img1,
-            title:'AR TUBE',
-            github:'https://github.com/Atulraj0708/AR-TUBE',
-            demo:'https://ar-tube.vercel.app/'
-        },
-        {
-            id:5,
-            image:Img1,
-            title:'AR TUBE',
-            github:'https://github.com/Atulraj0708/AR-TUBE',
-            demo:'https://ar-tube.vercel.app/'
-        },
-        {
-            id:6,
-            image:Img1,
-            title:'AR TUBE',
-            github:'https://github.com/Atulraj0708/AR-TUBE',
-            demo:'https://ar-tube.vercel.app/'
-        },
+        // {
+        //     id:4,
+        //     image:Img1,
+        //     title:'AR TUBE',
+        //     github:'https://github.com/Atulraj0708/AR-TUBE',
+        //     demo:'https://ar-tube.vercel.app/'
+        // },
+        // {
+        //     id:5,
+        //     image:Img1,
+        //     title:'AR TUBE',
+        //     github:'https://github.com/Atulraj0708/AR-TUBE',
+        //     demo:'https://ar-tube.vercel.app/'
+        // },
+        // {
+        //     id:6,
+        //     image:Img1,
+        //     title:'AR TUBE',
+        //     github:'https://github.com/Atulraj0708/AR-TUBE',
+        //     demo:'https://ar-tube.vercel.app/'
+        // },
     ]
   return (
     <section id='project'>

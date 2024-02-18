@@ -14,7 +14,7 @@ const about = () => {
         </div>
         <div className="about__content">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt earum harum sapiente, dolores recusandae sequi dolorem facere tempore quibusdam. Mollitia fugiat, amet, laudantium soluta nesciunt pariatur recusandae ipsam quis blanditiis esse omnis, delectus ducimus consequatur culpa! Deserunt harum adipisci quia?
+          I’m Atul Raj, Currently pursuing a B.Tech majoring in CSE Branch at the Indian Institute Of Information Technology, Sricity. I’m keenly interested in the experimental area as well as coding and am well-versed in DSA and Web Development(MERN).
           </p>
           <a href="#contact" className='btn btn-primary'>Let's Connect</a>
         </div>
