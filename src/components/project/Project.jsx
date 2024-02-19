@@ -1,16 +1,17 @@
 import React from 'react'
-import Img1 from '../../assets/portfolio-1.png'
+import Img1 from '../../assets/pro4-img.png'
 import Img2 from '../../assets/pro2-img.png'
 import Img3 from '../../assets/pro3-img.png'
+import Img4 from '../../assets/portfolio-1.png'
 import './Project.css'
 const Project = () => {
     const data=[
         {
             id:1,
             image:Img1,
-            title:'AR TUBE',
-            github:'https://github.com/Atulraj0708/AR-TUBE',
-            demo:'https://ar-tube.vercel.app/'
+            title:'Celestial',
+            github:'https://github.com/Atulraj0708/Celestial',
+            demo:'https://celestialfrontend.onrender.com/'
         },
         {
             id:2,
@@ -26,6 +27,14 @@ const Project = () => {
             github:'https://github.com/Atulraj0708/Booking',
             demo:'https://booking-black-seven.vercel.app/'
         },
+        {
+            id:4,
+            image:Img4,
+            title:'AR TUBE',
+            github:'https://github.com/Atulraj0708/AR-TUBE',
+            demo:'https://ar-tube.vercel.app/'
+        },
+      
     ]
   return (
     <section id='project'>
