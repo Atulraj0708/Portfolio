@@ -3,6 +3,7 @@ import Img1 from '../../assets/pro4-img.png'
 import Img2 from '../../assets/pro2-img.png'
 import Img3 from '../../assets/pro3-img.png'
 import Img4 from '../../assets/portfolio-1.png'
+import Img5 from '../../assets/pro5-img.png'
 import './Project.css'
 const Project = () => {
     const data=[
@@ -33,6 +34,13 @@ const Project = () => {
             title:'AR TUBE',
             github:'https://github.com/Atulraj0708/AR-TUBE',
             demo:'https://ar-tube.vercel.app/'
+        },
+        {
+            id:5,
+            image:Img5,
+            title:'Daric Chat',
+            github:'https://github.com/Atulraj0708/Daric-Chat',
+            demo:'https://daric-chat.vercel.app/'
         },
       
     ]
